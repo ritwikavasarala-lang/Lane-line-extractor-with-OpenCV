@@ -16,20 +16,6 @@ The script runs each image through these steps:
 
 Detected lane pixels are painted red on the original image. The green shape shows the region of interest.
 
-## Results
-
-Each image shows every stage: original, HSV filtered, blurred, Canny, ROI edges and final result.
-
-### Example 1
-![Pipeline](output/road1_pipeline.jpg)
-
-![Result](output/road1_result.jpg)
-
-### Example 2
-![Pipeline](output/road2_pipeline.jpg)
-
-![Result](output/road2_result.jpg)
-
 ## Setup
 
 1. Install Python 3 and the libraries:
